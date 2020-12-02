@@ -7,36 +7,32 @@
     <link rel="stylesheet" href="index.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Devicon.dev conexion-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
 
     <title>Sergio Parra - Perfil</title>
     </head>
     <body>
     <div class="container">
         <!-- Inicio de  barra de navegacion -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-0">
-            <div class="container">
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#inicio">Inicio</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#experiencia">Experiencia</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#educaion">Educación</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#habilidades">Habilidades</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#intereses">Intereses</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#proyectos">Proyectos</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-sm navbar-custom">
+            <a href="/" class="navbar-brand">Sergio Parra</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCustom">
+                <i class="fa fa-bars fa-lg py-1 text-white"></i>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarCustom">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#educacion">Educación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                <span class="ml-auto navbar-text">Ingeniero civil - Programador - Diseñador web</span>
             </div>
         </nav>
         <!-- Fin barra de navegacion -->
@@ -47,78 +43,471 @@
                     <img src="Imagenes/profile_pag.jpg" alt="profile_pag">
                 </div>
                 <div class="col-12 col-md-7">
-                    <h1 style="font-size: 350%;">Sergio Steven </h1>
-                    <h1 style="font-size: 350%;">Parra Cuesta</h1>
+                    <h1 class="display-1">Sergio Steven </h1>
+                    <h1 class="display-2">Parra Cuesta</h1>
                     <h2>BOGOTÁ - COLOMBIA · (+57) 3203633542 · <a href="#">stevenparracuesta@gmail.com</a></h2>
-                    <p>Ingeniero Civil profesional con habilidades flexibles en el área técnica, ejecución de labores, 
-                        encontrar las soluciones efectivas, con destrezas en distintos software aplicados en ingeniería, 
-                        como Microsoft Proyect, Excel avanzado, programación y manejo de Sistemas de Información Geográfica 
-                        (SIG) y diseño web. He ejercido en el área hídrica, con el uso de los SIG para cálculo de parámetros 
-                        básicos en el diseño de sistemas de captación de agua potable.</p>
+                    <p class="lead">Ingeniero Civil profesional con habilidades flexibles, manejo de
+                        software, programador y diseñador web como hobbie</p>
                 </div>
             </div>
         </section>
         <!-- Fin del Inicio -->
+        <hr />
         <!-- Inicio de Experiencia -->
         <section class="experiencia">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <h2>Experiencia</h2>
+                    <div class="col text-center mt-3 mb-3">
+                        <h1 class="display-4">Experiencia</h1>
                     </div>
                 </div>
-                <ul>
-                    <div class="row">
-                        <div class="col">
-                            <li><h3>Cartógrafo</h3></li>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6 text-left">
+                                            <h2>Cartógrafo</h2>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <small class="text-uppercase">Febrero 2019 - Junio 2019</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                            <div class="card-body">
+                                <h3>Proindesco LTDA</h3>
+                                <p>Análisis de datos geográficos para localizar cuencas, 
+                                    cálculo de sus parametros básicos para el diseño de sistemas 
+                                    de recoleccion de agua potable.</p>
+                                <h3>Contacto:</h3>
+                                <p class="lead">Ing. Guilermo Hernandez Torrez</p>
+                                <p><strong>N° teléfono: </strong>(+57) 3157274724</p>
+                                <p><strong>Correo: </strong><a href="#">ghernandez@ucatolica.edu.co</a></p>
+                            </div>
                         </div>
                     </div>
-                    <ul>
-                        <div class="row">
-                            <div class="col-9">
-                                <li><h4>Proindesco LTDA</h4></li>
-                                <li>Análisis de datos geográficos para localizar cuencas, cálculo de sus parametros 
-                                    básicos para el diseño de sistemas de recoleccion de agua potable.</li>
-                                <li><h4>Contacto:</h4></li>
-                                <li>Ing. Guillermo Hernandez Torres</li>
-                                <li>(+57) 3157274724</li>
-                                <li><a href="#">ghernandez@ucatolica.edu.co</a></li>
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6 text-left">
+                                            <h2>Dibujante</h2>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <small class="text-uppercase">Agosto 2017 - Octubre 2017</small>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-3">
-                                <li>Febrero 2019 - Junio 2019</li>
+                            <div class="card-body">
+                                <h3>TRABAJO INDEPENDIENTE</h3>
+                                <p>Dibujo de planos hidráulicos, sanitarios y eléctricos para presentación 
+                                    al dueño de la obra.</p>
+                                <h3>Contacto:</h3>
+                                <p class="lead">Ing. Fabián Ancizar Barreto</p>
+                                <p><strong>N° teléfono: </strong>(+57) 3013114723</p>
+                                <p><strong>Correo: </strong><a href="#">fabarreto22@ucatolica.edu.co</a></p>
                             </div>
-                        </div>
-                    </ul>
-                    <div class="row">
-                        <div class="col">
-                            <li><h3>Dibujante</h3></li>
                         </div>
                     </div>
-                    <ul>
-                        <div class="row">
-                            <div class="col-9">
-                                <li><h4>Trabajo independiente</h4></li>
-                                <li>Dibujo de planos hidráulicos, sanitarios y eléctricos para presentación al dueño de la obra.</li>
-                                <li><h4>Contacto:</h4></li>
-                                <li>Ing. Fabián Ancizar Barreto</li>
-                                <li>(+57) 3013114723</li>
-                                <li><a href="#">fabarreto22@ucatolica.edu.co</a></li>
-                            </div>
-                            <div class="col-3">
-                                <li>Agosto 2017 - Octubre 2017</li>
-                            </div>
-                        </div>
-                    </ul>
-                </ul>
+                </div>
             </div>
         </section>
         <!-- Fin de Experiencia -->
+        <hr />
         <!-- Inicio Educación -->
         <section class="educacion">
-            <div class="row">
-                <div class="col">
-                    <h2>Educación</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h1 class="display-4">Educación</h1>
+                    </div>
                 </div>
+                <div class="row mt-3 mb-3">
+                    <div class="col">
+                        <h2>Educación profesional</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h3>Universidad Católica de Colombia</h3>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <small class="text-uppercase">Enero 2015 - Abril 2020</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h5>Ingeniero Civil</h5>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <small>BOGOTÁ - COLOMBIA</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3 mb-3">
+                    <div class="col">
+                        <h2>Educación basica</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h3>Colegio Católico de la Sabana</h3>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <small>DICIEMBRE 2014</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h5>Básico bachillerato</h5>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <small>BOGOTÁ - COLOMBIA</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3 mb-3">
+                    <div class="col">
+                        <h2>Estudios formales</h2>
+                    </div>
+                </div>
+                <div class="row mt-3 mb-3">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            Diplomado en Diseño de Sistemas de Infraestructuras
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <small class="text-uppercase">Julio 2019</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            Universidad Católica de Colombia
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <small>BOGOTÁ - COLOMBIA</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            Nanomateriales – Aplicaciones en ingeniería civil
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <small class="text-uppercase">Junio 2019</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            Universidad Católica de Colombia
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <small>BOGOTÁ - COLOMBIA</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3 mb-3">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            Actualización topográfica – Uso de estaciones totales
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <small class="text-uppercase">Junio 2017</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            Universidad Católica de Colombia
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <small>BOGOTÁ - COLOMBIA</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            Programación en Arduino
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <small class="text-uppercase">Junio 2017</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            Universidad Católica de Colombia
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <small>BOGOTÁ - COLOMBIA</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3 mb-3">
+                    <div class="col">
+                        <h2>Lenguajes de Programación y herramientas</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="container">
+                        <div class="card ml-2" style="width: 20rem;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4 text-center pt-2" style="background-color: rgba(0, 102, 255, 1);">
+                                    <i class="devicon-bootstrap-plain"></i>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <p>Bootstrap V 4.0</p>
+                                        <small>Diciembre 2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="container">
+                        <div class="card ml-2" style="width: 20rem;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4 text-center pt-3" style="background-color: rgba(0, 102, 255, 1);">
+                                    <i class="devicon-git-plain"></i>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <p>Git</p>
+                                        <small>Noviembre 2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="container">
+                        <div class="card ml-2" style="width: 20rem;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4 text-center pt-3" style="background-color: rgba(0, 102, 255, 1);">
+                                    <i class="devicon-github-plain"></i>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <p>GitHub</p>
+                                        <small>Noviembre 2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-4">
+                        <div class="container">
+                        <div class="card ml-2" style="width: 20rem;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4 text-center pt-2" style="background-color: rgba(0, 102, 255, 1);">
+                                    <i class="devicon-php-plain"></i>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <p>php V 7.0</p>
+                                        <small>Noviembre 2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="container">
+                        <div class="card ml-2" style="width: 20rem;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4 text-center pt-3" style="background-color: rgba(0, 102, 255, 1);">
+                                    <i class="devicon-mysql-plain-wordmark"></i>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <p>MySQL</p>
+                                        <small>Noviembre 2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-4">
+                        <div class="container">
+                        <div class="card ml-2" style="width: 20rem;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4 text-center pt-3" style="background-color: rgba(0, 102, 255, 1);">
+                                    <i class="devicon-visualstudio-plain"></i>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <p>Visual Studio Code</p>
+                                        <small>Noviembre 2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="container">
+                        <div class="card ml-2" style="width: 20rem;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4 text-center pt-3" style="background-color: rgba(0, 102, 255, 1);">
+                                    <i class="devicon-jquery-plain-wordmark"></i>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <p>Jquery</p>
+                                        <small>Septiembre 2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="container">
+                        <div class="card ml-2" style="width: 20rem;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4 text-center pt-3" style="background-color: rgba(0, 102, 255, 1);">
+                                    <i class="devicon-javascript-plain"></i>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <p>JavaScript</p>
+                                        <small>Septiembre 2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="container">
+                        <div class="card ml-2" style="width: 20rem;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4 text-center pt-2" style="background-color: rgba(0, 102, 255, 1);">
+                                    <i class="devicon-css3-plain"></i>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <p>CSS3</p>
+                                        <small>Septiembre 2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="container">
+                        <div class="card ml-2" style="width: 20rem;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4 text-center pt-3" style="background-color: rgba(0, 102, 255, 1);">
+                                    <i class="devicon-python-plain"></i>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <p>Python 3</p>
+                                        <small>Julio 2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
             </div>
         </section>
     </div>
