@@ -44,6 +44,12 @@ li{
     color: rgba(255,255,255,1);
 }
 
+.facebook, .youtube, .whatsapp, .instagram, .github, .linkedin{
+    display: none;
+}
+.redes-sociales{
+    font-size: 2.5rem !important;
+}
 .devicon-bootstrap-plain, 
 .devicon-git-plain, 
 .devicon-github-plain, 
@@ -53,7 +59,33 @@ li{
 .devicon-css3-plain,
 .devicon-python-plain,
 .devicon-visualstudio-plain,
-.devicon-jquery-plain-wordmark {
-  font-size: 5rem;
+.devicon-jquery-plain-wordmark,
+.fa-file-code,
+.iconify{
+  font-size: 4rem;
   color: #ffffff;
+}
+.fa-cogs{
+    font-size: 1.5rem;
+}
+#program{
+    margin-left: 1rem;
+}
+li{
+    margin-top: 0.7rem;
+}
+#carouselIntereses img{
+    max-height: 90vh;
+    object-fit: cover;
+    position: relative;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: absolute;
+    top: 70vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
 }
