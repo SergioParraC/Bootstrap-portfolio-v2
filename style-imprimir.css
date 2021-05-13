@@ -1,0 +1,47 @@
+@media print{
+    nav {
+        display: none;
+    }
+    .foto-presentacion {
+        display: none;
+    }
+    .foto-hv{
+        display: block;
+        width: 230px;
+    }
+    p{
+        font-size: 1.4em;
+        color: black;
+    }
+    span{
+        font-size: 1.4em;
+    }
+    #experiencia{
+        display: none;
+    }
+    #icon{
+        font-size: 5em !important;
+    }
+    #program{
+        font-size: 1.5em !important;
+    }
+    ul{
+        text-decoration: none !important;
+    }
+    #intereses{
+        page-break-before: always;
+    }
+    .overlay{
+        display: none;
+    }
+    #traje-expo{
+        width: 200px !important;
+    }
+    #footer{
+        display: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}

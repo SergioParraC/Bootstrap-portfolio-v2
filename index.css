@@ -44,7 +44,7 @@ li{
     color: rgba(255,255,255,1);
 }
 
-.facebook, .youtube, .whatsapp, .instagram, .github, .linkedin{
+.facebook, .youtube, .whatsapp, .instagram, .github, .linkedin, .page{
     display: none;
 }
 .redes-sociales{
@@ -60,10 +60,25 @@ li{
 .devicon-python-plain,
 .devicon-visualstudio-plain,
 .devicon-jquery-plain-wordmark,
+.devicon-java-plain,
+.file-icons,
+.iconify,
+.devicon-mysql-plain,
+.devicon-html5-plain,
 .fa-file-code,
+.devicon-html5-plain,
+.devicon-python-plain,
+.devicon-javascript-plain,
+.devicon-java-plain,
 .iconify{
   font-size: 4rem;
   color: #ffffff;
+  height: 100px;
+}
+
+.devicon-html5-plain{
+  color: #ffffff;
+  height: 100px;
 }
 .fa-cogs{
     font-size: 1.5rem;
